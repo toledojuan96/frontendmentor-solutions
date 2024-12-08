@@ -1,7 +1,7 @@
 #Respository For All Frontend Mentor solutions
 
 - Home page will have simple menu for allsolutions based on name
-- Hosted in hostinger domain [LINK](frontend-mentor.juantoledo.me)
+- Hosted in hostinger domain [LINK](https://frontend-mentor.juantoledo.me)
 
 
 
