@@ -1,3 +1,10 @@
+#Respository For All Frontend Mentor solutions
+
+- Home page will have simple menu for allsolutions based on name
+- Hosted in hostinger domain [LINK](frontend-mentor.juantoledo.me)
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
