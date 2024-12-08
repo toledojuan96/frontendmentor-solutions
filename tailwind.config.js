@@ -7,6 +7,10 @@ export default {
   ],
   theme: {
     extend: {},
+      fontFamily: {
+        youngSerif: ["YoungSerif", "sans-serif"],
+          outfit: ["Outfit", "sans-serif"],
+      }
   },
   plugins: [],
 }
