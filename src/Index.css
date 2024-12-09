@@ -18,3 +18,7 @@
     font-family: 'Inter';
     src: url('/fonts/inter/Inter-VariableFont_slnt,wght.ttf');
 }
+@font-face{
+    font-family: 'Figtree';
+    src: url('/fonts/figtree/Figtree-Italic-VariableFont_wght.ttf');
+}

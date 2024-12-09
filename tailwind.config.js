@@ -6,11 +6,13 @@ export default {
         "./index.html"
     ],
     theme: {
-        extend: {},
+        extend: {
+        },
         fontFamily: {
             youngSerif: ["YoungSerif", "sans-serif"],
             outfit: ["Outfit", "sans-serif"],
             inter: ["Inter", "sans-serif"],
+            figtree: ["Figtree", "sans-serif"],
         }
     },
     plugins: [],
