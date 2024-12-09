@@ -13,3 +13,8 @@
     font-family: 'Outfit';
     src: url('/fonts/outfit/Outfit-VariableFont_wght.ttf');
 }
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/inter/Inter-VariableFont_slnt,wght.ttf');
+}
