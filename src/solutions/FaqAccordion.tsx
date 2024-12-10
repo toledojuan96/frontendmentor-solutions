@@ -7,7 +7,7 @@ interface TPropsAccordion {
 }
 
 const Accordion = ({question, answer, index}: TPropsAccordion) => {
-    const [isCollapsed, setIsCollapsed] = useState<boolean>(true);
+    const [isCollapsed, setIsCollapsed] = useState<boolean>(index !== 0);
     const handleClick = () => {
         setIsCollapsed((prevState) => !prevState)
     }
@@ -21,7 +21,7 @@ const Accordion = ({question, answer, index}: TPropsAccordion) => {
                          alt="plusOrMinus"
                          className="size-[30px]"/>
                 </button>
-                <p className={`text-[14px] text-fuchsia-900 font-extralight tracking-wider ${isCollapsed && 'collapse h-0'}`}>{answer}</p>
+                <p className={`text-[14px] text-fuchsia-900 tracking-wider ${isCollapsed && 'collapse h-0'}`}>{answer}</p>
             </div>
             {
                 index !== 3 &&
