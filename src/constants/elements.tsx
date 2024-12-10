@@ -4,6 +4,7 @@ import App from "../App.tsx";
 import RecipePage from "../solutions/RecipePage.tsx";
 import SocialLinksProfile from "../solutions/SocialLinksProfile.tsx";
 import BlogPreviewCard from "../solutions/BlogPreviewCard.tsx";
+import FaqAccordion from "../solutions/FaqAccordion.tsx";
 
 export const PATHS: TRoutePath[] = [
     {
@@ -25,6 +26,11 @@ export const PATHS: TRoutePath[] = [
         title: 'Blog Preview Card',
         path: '/blog-preview-card-ckPaj01IcS',
         component: <BlogPreviewCard/>
+    },
+    {
+        title: 'FAQ Accordion',
+        path: '/faq-accordion-wyfFdeBwBz',
+        component: <FaqAccordion/>
     }
 ]
 

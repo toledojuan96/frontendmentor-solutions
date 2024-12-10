@@ -22,3 +22,8 @@
     font-family: 'Figtree';
     src: url('/fonts/figtree/Figtree-Italic-VariableFont_wght.ttf');
 }
+
+@font-face {
+    font-family: 'Work';
+    src: url('/fonts/worksans/font.ttf');
+}
