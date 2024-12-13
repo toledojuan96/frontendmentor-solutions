@@ -7,6 +7,14 @@ export default {
     ],
     theme: {
         extend: {
+            colors: {
+                greenWorkItLandingPage: '#44FFA1',
+                purpleWorkItLandingPage: {
+                    100: '#FCF8FF',
+                    500: '#584D62',
+                    900: '#24053E'
+                }
+            }
         },
         fontFamily: {
             youngSerif: ["YoungSerif", "sans-serif"],
@@ -14,6 +22,8 @@ export default {
             inter: ["Inter", "sans-serif"],
             figtree: ["Figtree", "sans-serif"],
             worksans: ["Work", "sans-serif"],
+            manrope: ["Manrope", "sans-serif"],
+            fraunces: ["Fraunces", "sans-serif"],
         }
     },
     plugins: [],

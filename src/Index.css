@@ -27,3 +27,12 @@
     font-family: 'Work';
     src: url('/fonts/worksans/font.ttf');
 }
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('/fonts/manrope/font.ttf');
+}
+@font-face {
+    font-family: 'Fraunces';
+    src: url('/fonts/fraunces/font.ttf');
+}

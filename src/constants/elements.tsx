@@ -5,6 +5,7 @@ import RecipePage from "../solutions/RecipePage.tsx";
 import SocialLinksProfile from "../solutions/SocialLinksProfile.tsx";
 import BlogPreviewCard from "../solutions/BlogPreviewCard.tsx";
 import FaqAccordion from "../solutions/FaqAccordion.tsx";
+import WorkitLandingPage from "../solutions/WorkitLandingPage.tsx";
 
 export const PATHS: TRoutePath[] = [
     {
@@ -31,6 +32,11 @@ export const PATHS: TRoutePath[] = [
         title: 'FAQ Accordion',
         path: '/faq-accordion-wyfFdeBwBz',
         component: <FaqAccordion/>
+    },
+    {
+        title: 'Workit Landing Page',
+        path: '/workit-landing-page-2fYnyle5lu',
+        component: <WorkitLandingPage/>
     }
 ]
 
