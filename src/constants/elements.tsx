@@ -7,6 +7,7 @@ import BlogPreviewCard from "../solutions/BlogPreviewCard.tsx";
 import FaqAccordion from "../solutions/FaqAccordion.tsx";
 import WorkitLandingPage from "../solutions/WorkitLandingPage.tsx";
 import ResultsSummary from "../solutions/ResultsSummary.tsx";
+import ProductPreviewCard from "../solutions/productPreviewCard.tsx";
 
 export const PATHS: TRoutePath[] = [
     {
@@ -43,6 +44,11 @@ export const PATHS: TRoutePath[] = [
         title: 'Results Summary',
         path: '/results-summary-component-CE_K6s0maV',
         component: <ResultsSummary/>
+    },
+    {
+        title: 'Product Preview Card',
+        path: '/product-preview-card-component-GO7UmttRfa',
+        component: <ProductPreviewCard/>
     }
 ]
 

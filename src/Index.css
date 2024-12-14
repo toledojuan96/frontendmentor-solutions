@@ -41,3 +41,8 @@
     font-family: 'HankenGrotesk';
     src: url("/fonts/variable/hankenGrotesk.ttf");
 }
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url("/fonts/variable/montserrat.ttf");
+}
