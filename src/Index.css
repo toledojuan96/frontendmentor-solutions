@@ -36,3 +36,8 @@
     font-family: 'Fraunces';
     src: url('/fonts/fraunces/font.ttf');
 }
+
+@font-face{
+    font-family: 'HankenGrotesk';
+    src: url("/fonts/variable/hankenGrotesk.ttf");
+}

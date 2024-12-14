@@ -24,6 +24,7 @@ export default {
             worksans: ["Work", "sans-serif"],
             manrope: ["Manrope", "sans-serif"],
             fraunces: ["Fraunces", "sans-serif"],
+            hankenGrotesk: ["HankenGrotesk", 'sans-serif']
         }
     },
     plugins: [],
