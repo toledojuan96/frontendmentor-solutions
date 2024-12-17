@@ -46,3 +46,8 @@
     font-family: 'Montserrat';
     src: url("/fonts/variable/montserrat.ttf");
 }
+
+@font-face{
+    font-family: 'PlusJakartaSans';
+    src: url('/fonts/variable/plusJakartaSans.ttf');
+}
