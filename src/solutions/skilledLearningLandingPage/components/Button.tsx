@@ -1,6 +1,4 @@
 import clsx from "clsx/lite";
-import {GRADIENT_ORANGE, GRADIENT_PINK} from "../constants.ts";
-
 
 interface TPropsButton {
     color: 'black'|'orange'|"pink",
@@ -8,6 +6,7 @@ interface TPropsButton {
 }
 
 const getColorBackground = (color: TPropsButton["color"]) => {
+
     switch (color) {
         case "black":
             return {
@@ -16,13 +15,13 @@ const getColorBackground = (color: TPropsButton["color"]) => {
             }
         case "pink":
             return {
-                normal: GRADIENT_PINK,
+                normal: 'bg-gradient-to-b from-[#4851FF] to-[#F02AA6]',
                 hover: ``
             }
         case "orange":
         default:
             return {
-                normal: GRADIENT_ORANGE,
+                normal: 'bg-gradient-to-b from-[#FF6F48] to-[#F02AA6]',
                 hover: ``
             }
     }
