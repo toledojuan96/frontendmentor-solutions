@@ -1,5 +1,4 @@
 import clsx from "clsx/lite";
-import {GRADIENT_ORANGE} from "./constants.ts";
 
 interface TFeature {
 
@@ -50,7 +49,7 @@ const PopularCourses = () => {
             "xl:px-0"
         )}>
             <h1 className={clsx(
-                GRADIENT_ORANGE, "p-8 rounded-[15px] text-white font-bold text-[24px] leading-[120%] w-[335px]",
+                'bg-gradient-to-b from-[#FF6F48] to-[#F02AA6]', "p-8 rounded-[15px] text-white font-bold text-[24px] leading-[120%] w-[335px]",
                 "md:mt-[23px] md:w-[328px] md:h-[350px]"
             )}>Check out our most popular courses!</h1>
             {
