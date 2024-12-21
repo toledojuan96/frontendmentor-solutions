@@ -11,6 +11,7 @@ import ProductPreviewCard from "../solutions/productPreviewCard.tsx";
 import SkilledLearningLandingPage from "../solutions/SkilledLearningLandingPage.tsx";
 import InteractiveRating from "../solutions/InteractiveRating.tsx";
 import QRCodeComponent from "../solutions/QRCodeComponent.tsx";
+import NFTPreviewCardComponent from "../solutions/NFTPreviewCardComponent.tsx";
 
 export const PATHS: TRoutePath[] = [
     {
@@ -67,6 +68,11 @@ export const PATHS: TRoutePath[] = [
         title: 'QR Code Component',
         path: '/qr-code-component-iux_sIO_H',
         component: <QRCodeComponent/>
+    },
+    {
+        title: 'NFT Preview Card Component',
+        path: '/nft-preview-card-component-SbdUL_w0U',
+        component: <NFTPreviewCardComponent/>
     },
 
 ]

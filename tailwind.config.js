@@ -27,6 +27,13 @@ export default {
                     'slate-900': '#1F314F',
                     'slate-500': '#68778D',
                     'slate-300': '#D5E1EF'
+                },
+                nftPreviewCardComponent: {
+                    'softBlue': '#8BACD9',
+                    'cyan': '#00FFF8',
+                    'veryDarkBlueMain': '#0D192C',
+                    'darkBlueCard':'#15263F',
+                    'darkBlueLine': '#2E405A'
                 }
             }
         },
