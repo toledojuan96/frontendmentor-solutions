@@ -9,6 +9,7 @@ import WorkitLandingPage from "../solutions/WorkitLandingPage.tsx";
 import ResultsSummary from "../solutions/ResultsSummary.tsx";
 import ProductPreviewCard from "../solutions/productPreviewCard.tsx";
 import SkilledLearningLandingPage from "../solutions/SkilledLearningLandingPage.tsx";
+import InteractiveRating from "../solutions/InteractiveRating.tsx";
 
 export const PATHS: TRoutePath[] = [
     {
@@ -55,6 +56,11 @@ export const PATHS: TRoutePath[] = [
         title: 'Skilled Learning Landing Page',
         path: '/skilled-elearning-landing-page-S1ObDrZ8q',
         component: <SkilledLearningLandingPage/>
+    },
+    {
+        title: 'Interactive Rating',
+        path: '/interactive-rating-component-koxpeBUmI',
+        component: <InteractiveRating/>
     },
 
 ]

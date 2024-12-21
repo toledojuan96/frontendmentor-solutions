@@ -51,3 +51,8 @@
     font-family: 'PlusJakartaSans';
     src: url('/fonts/variable/plusJakartaSans.ttf');
 }
+
+@font-face{
+    font-family: 'Overpass';
+    src: url('/fonts/variable/overpass.ttf');
+}

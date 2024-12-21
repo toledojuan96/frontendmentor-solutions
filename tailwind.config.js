@@ -36,6 +36,7 @@ export default {
             hankenGrotesk: ["HankenGrotesk", 'sans-serif'],
             montserrat: ["Montserrat", "sans-serif"],
             plusJakartaSans: ["PlusJakartaSans", "sans-serif"],
+            overpass: ["Overpass", "sans-serif"],
         }
     },
     plugins: [],
