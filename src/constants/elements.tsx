@@ -10,6 +10,7 @@ import ResultsSummary from "../solutions/ResultsSummary.tsx";
 import ProductPreviewCard from "../solutions/productPreviewCard.tsx";
 import SkilledLearningLandingPage from "../solutions/SkilledLearningLandingPage.tsx";
 import InteractiveRating from "../solutions/InteractiveRating.tsx";
+import QRCodeComponent from "../solutions/QRCodeComponent.tsx";
 
 export const PATHS: TRoutePath[] = [
     {
@@ -61,6 +62,11 @@ export const PATHS: TRoutePath[] = [
         title: 'Interactive Rating',
         path: '/interactive-rating-component-koxpeBUmI',
         component: <InteractiveRating/>
+    },
+    {
+        title: 'QR Code Component',
+        path: '/qr-code-component-iux_sIO_H',
+        component: <QRCodeComponent/>
     },
 
 ]

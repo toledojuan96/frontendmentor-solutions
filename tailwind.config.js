@@ -22,7 +22,12 @@ export default {
                     300: '#FFA7C3',
                     600: '#F74780'
                 },
-                greySkilledLearningLandingPage: '#83869A'
+                greySkilledLearningLandingPage: '#83869A',
+                qrCodeComponent: {
+                    'slate-900': '#1F314F',
+                    'slate-500': '#68778D',
+                    'slate-300': '#D5E1EF'
+                }
             }
         },
         fontFamily: {
